@@ -1,8 +1,8 @@
-### will create a transaction - **** DO IN SANDBOX ONLY ****
+### will create a transaction - **** DO IN SANDBOX ONLY **** 
+// LOGS IDV_EU_Externasl
 
-// https://idvgl006.uat.eu01.idv.onespan.cloud/IDVerification/GBmZoVf6Xv5089TERUPjwt
-// https://idvgl006.uat.eu01.idv.onespan.cloud/IDVerification/F7DKSeJGR4cZ3AdNBtQjk9
-// https://idvgl006.uat.eu01.idv.onespan.cloud/IDVerification/HvM2mHNJWcCHwTJzenE0IJ
+// https://idvgl006.uat.eu01.idv.onespan.cloud/IDVerification/BtmV6SHafA8VK7ZAFV5eKO
+// b0c91851-830d-41f1-9dea-751852b29f34
 
 put {{customer-url}}/api/transaction/
 Content-Type: application/json
@@ -57,3 +57,13 @@ Authorization: Bearer {{token}}
         ]
     }
 }
+
+
+// https://idvgl006.uat.eu01.idv.onespan.cloud/IDVerification/GBmZoVf6Xv5089TERUPjwt
+// bfabe7f4-2c7e-486c-bbfd-152b8440f77c - cancelled
+// https://idvgl006.uat.eu01.idv.onespan.cloud/IDVerification/F7DKSeJGR4cZ3AdNBtQjk9
+// 1ae787bc-2482-43da-9630-812764dc9a7a - cancelled
+// https://idvgl006.uat.eu01.idv.onespan.cloud/IDVerification/HvM2mHNJWcCHwTJzenE0IJ
+// 124f700d-2e9d-464f-9410-306d3bc13be7 - cancelled
+// https://idvgl006.uat.eu01.idv.onespan.cloud/IDVerification/BXrVuFunC0rcN89sV7uuZF
+// dafe4721-1cfd-4278-80b4-eae91a33b229 - completed and failed

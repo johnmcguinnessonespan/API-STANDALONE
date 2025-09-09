@@ -18,7 +18,6 @@ Authorization: Bearer {{token}}
 {
     "grace_period": 25,
     "transaction_ids": [
-        "xxxxx-xxxxx-xxxxx-xxxxxx",
-        "xxxxx-xxxxx-xxxxx-xxxxxx"
+        "124f700d-2e9d-464f-9410-306d3bc13be7"
     ]
 }

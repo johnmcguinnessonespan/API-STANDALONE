@@ -1,5 +1,5 @@
 ###  Tried and does set transaction to a cancelled status
-@idvTransaction_id=bfabe7f4-2c7e-486c-bbfd-152b8440f77c
+@idvTransaction_id=1ae787bc-2482-43da-9630-812764dc9a7a
 
 put {{customer-url}}/api/transaction/{{idvTransaction_id}}/event
 Authorization: Bearer {{token}}

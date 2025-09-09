@@ -1,6 +1,15 @@
 ### Slow in processing pdf
-@idvTransaction_id=cf5f108a-7230-4c90-be14-80738f06c57d
+@idvTransaction_id=b0c91851-830d-41f1-9dea-751852b29f34
 
 get {{customer-url}}/api/transaction/{{idvTransaction_id}}/document/AuditTrailDocument/pdf HTTP/1.1
 Authorization: Bearer {{token}}
 
+
+
+TXARRAY=( "dafe4721-1cfd-4278-80b4-eae91a33b229" )
+
+./at_on_demand.sh
+--url
+--token
+--tx
+--name $TXARRAY
