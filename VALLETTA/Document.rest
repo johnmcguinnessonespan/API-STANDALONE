@@ -1,0 +1,7 @@
+### https://docs.onespan.com/docs/get-document
+@idvTransaction_id = 31321321321321
+@document_id = 31321321321321
+
+get {{customer-url}}/api/transaction/{{idvTransaction_id}}/document/{{document_id}}/pdf
+Accept: application/json, text/javascript
+Authorization: Bearer {{token}}

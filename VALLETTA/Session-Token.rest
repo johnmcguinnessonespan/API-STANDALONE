@@ -1,0 +1,7 @@
+### https://docs.onespan.com/docs/create-session-creation-token
+
+@idvTransaction_id = 34234324234234
+
+post {{customer-url}}/api/transactions/{{idvTransaction_id}}/token
+Accept: application/json, text/javascript
+Authorization: Bearer {{token}}

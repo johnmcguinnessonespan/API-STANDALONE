@@ -1,0 +1,6 @@
+### Download image binary data
+@idvTransaction_id=cf5f108a-7230-4c90-be14-80738f06c57d
+@sfs_url=sfs://vhub-default/default/ONESPAN_IDV_LIVE/transactions/23d28db6-424c-47ed-a067-04984bcefba2/biometrics/0f3d7f12-103d-4f1d-b234-87d53d2a1c50/png
+
+get {{customer-url}}/api/transactions/{{idvTransaction_id}}/data?url={{sfs_url}}
+Authorization: Bearer {{token}}

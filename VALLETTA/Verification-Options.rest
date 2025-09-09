@@ -1,0 +1,27 @@
+@idvTransaction_id=691f578d-dd08-4a0c-a009-bab9736ea311
+@verification_id=
+
+### gets details of transaction from vhub in bulk
+get {{customer-url}}/api/transaction/{{idvTransaction_id}}/verification HTTP/1.1
+Accept: application/json
+Authorization: Bearer {{token}}
+
+
+### gets details of transaction from vhub in bulk - better format
+get {{customer-url}}/api/transactions/{{idvTransaction_id}}/detailed-verification-report HTTP/1.1
+Accept: application/json
+Authorization: Bearer {{token}}
+Content-Type: application/json;charset=UTF-8
+
+
+### gets details of transaction metadata from vhub in bulk but has Dealflo sfs links
+get {{customer-url}}/api/transaction/{{idvTransaction_id}}?withVerifications=true
+Accept: application/json
+Authorization: Bearer {{token}}
+Content-Type: application/json;charset=UTF-8
+
+
+### supplies id's and image links
+get {{customer-url}}/api/transactions/{{idvTransaction_id}}/verifications/{{verification_id}}/verification-images
+Accept: application/json
+Authorization: Bearer {{token}}

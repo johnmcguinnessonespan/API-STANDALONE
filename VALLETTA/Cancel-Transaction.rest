@@ -1,0 +1,10 @@
+###  Tried and does set transaction to a cancelled status
+@idvTransaction_id=bfabe7f4-2c7e-486c-bbfd-152b8440f77c
+
+put {{customer-url}}/api/transaction/{{idvTransaction_id}}/event
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+"trigger": "transaction_cancelled"
+}

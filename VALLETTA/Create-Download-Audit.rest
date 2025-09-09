@@ -1,0 +1,12 @@
+### https://docs.onespan.com/docs/generate-audit-trail-on-demand
+@idvTransaction_id=cf5f108a-7230-4c90-be14-80738f06c57d
+
+post {{customer-url}}/api/transactions/{{idvTransaction_id}}/generate-audit-trail
+Authorization: Bearer {{token}}
+
+@sfs=sfs://dealflo_db/default/idvgl006/transactions/cf5f108a-7230-4c90-be14-80738f06c57d/docs/AuditTrailDocument/1
+
+### https://docs.onespan.com/docs/download-audit-trail-document
+get {{customer-url}}/api/transactions/{{idvTransaction_id}}/data?url={{sfs}}
+Authorization: Bearer {{token}}
+Cookie: Cookie: 
