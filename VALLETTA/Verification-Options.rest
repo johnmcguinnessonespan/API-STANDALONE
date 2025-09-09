@@ -1,5 +1,5 @@
 @idvTransaction_id=b0c91851-830d-41f1-9dea-751852b29f34
-@verification_id=5a8a3daf-d22c-480d-a238-4eab36dd5d80
+@verification_id=b0c91851-830d-41f1-9dea-751852b29f34
 
 ### gets details of transaction from vhub in bulk
 get {{customer-url}}/api/transaction/{{idvTransaction_id}}/verification HTTP/1.1
