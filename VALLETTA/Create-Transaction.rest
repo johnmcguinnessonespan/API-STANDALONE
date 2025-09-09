@@ -1,6 +1,8 @@
 ### will create a transaction - **** DO IN SANDBOX ONLY **** 
 // LOGS IDV_EU_Externasl
 
+// https://idvgl006.uat.eu01.idv.onespan.cloud/IDVerification/BPnXlKjBATbRWpu5zvMXQB
+// https://idvgl006.uat.eu01.idv.onespan.cloud/IDVerification/GRDfBCCcPIa0riI8AvnLHL
 // https://idvgl006.uat.eu01.idv.onespan.cloud/IDVerification/BtmV6SHafA8VK7ZAFV5eKO
 // b0c91851-830d-41f1-9dea-751852b29f34
 
@@ -19,7 +21,7 @@ Authorization: Bearer {{token}}
     "middle_name": "Paul",
     "last_name": "McGuinness",
     "title": "Mr",
-    "role": "Customer",
+    "role": "STANDALONE",
     "phone_number": "+447485213049",
     "dob": "1904-01-01T00:00:00.000Z",
     "address": {
@@ -29,7 +31,7 @@ Authorization: Bearer {{token}}
   ],
   "tokens": [
     {
-      "role": "Customer"
+      "role": "STANDALONE"
     }
   ],
    "configuration":{
